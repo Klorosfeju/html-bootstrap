@@ -1,0 +1,20 @@
+„Az érmék” és az „Éremtáblázat” című blokkok sorának nagy (lg) felbontásra beállított
+egyenlő (6-6) elosztását módosítsa 7-5 arányúra a minta szerint!
+
+<!-- index.html -->
+
+<div class="container">
+    <div class="row">
+        <!-- Az érmék blokk -->
+        <div class="col-lg-7">
+            <h2>Az érmék</h2>
+            <!-- Tartalom... -->
+        </div>
+        <!-- Éremtáblázat blokk -->
+        <div class="col-lg-5">
+            <h2>Éremtáblázat</h2>
+            <!-- Tartalom... -->
+        </div>
+    </div>
+    <!-- További tartalmi blokkok... -->
+</div>
