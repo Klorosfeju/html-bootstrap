@@ -1,0 +1,45 @@
+HTML:
+
+hivatkozás elhelyezése: linkkel
+<link rel="stylesheet" href="ide megy a hivatkozás elhelyezése "> 
+
+szöveg átalakítása: wrap-> és oda a h1-h1-p-stb
+
+üres blok formázása:
+<div class="clearfix"></div>
+ez meg a cssbe
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+CSS:
+valami elé kép:
+list-style-image: url('images/arany.png');
+
+
+    font-variant: small-caps; ez a kiskapitális
+
+SZEGÉLYEK
+border-width: a szegély szélessége ...PX
+border-color: a szegély színe
+border-style: a szegély stílusa
+
+border-top: felső szegély. Például: border-top:1px solid green;
+border-right: jobb oldali szegély.
+border-bottom: alsó szegély.
+border-left: bal oldali szegély.
+
+szegély STILUSOK:
+solid: szimpla vonalas szegélyt eredményez.
+dotted: pontozott vonalas szegélyt eredményez.
+dashed: szaggatott vonalas szegélyt eredményez.
+double: dupla vonalas szegélyt eredményez.
+Ezen felül lehetőségünk van a négy oldalnak külön-külön szegélyt beállítani:
+
+A négy oldalra külön-külön megadott szegélyek értékeit is beállíthatjuk egyenként a border-top-style,
+a border-top-color, a border-top-width, a border-right-style, a border-right-color, a border-right-width,
+a border-bottom-style, a border-bottom-color, a border-bottom-width, a border-left-style,
+a border-left-color és a border-left-width tulajdonságokkal.
+
+Lekerekített szegély (border-radius)
