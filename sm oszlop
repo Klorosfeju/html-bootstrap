@@ -1,0 +1,46 @@
+Az Aranyérmesek részben minden egyéni sportoló esetében bővítse a meglévő Bootstrap
+osztályokat úgy, hogy kis (sm) felbontáson egy sorban három helyett csak két sportoló
+jelenjen meg! A női kajaknégyes osztálybesorolását alakítsa át úgy, hogy nagy (lg)
+felbontáson és afölött a rendelkezésre álló 12 oszlopból 9-et foglaljon el; ennél
+alacsonyabb felbontáson foglalja el a teljes sort!
+
+<!-- index.html -->
+
+<div class="container">
+    <div class="row">
+        <!-- Aranyérmesek rész -->
+        <div class="col-sm-6 col-lg-9">
+            <h2>Aranyérmesek</h2>
+            <!-- Egyéni sportolók -->
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <!-- Egyéni sportoló 1 -->
+                    <!-- ... Egyéni sportoló adatai ... -->
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <!-- Egyéni sportoló 2 -->
+                    <!-- ... Egyéni sportoló adatai ... -->
+                </div>
+                <!-- Egyéni sportolók további elemei... -->
+            </div>
+            <!-- Női kajaknégyes -->
+            <div class="row">
+                <div class="col-sm-12 col-lg-9">
+                    <!-- Női kajaknégyes -->
+                    <!-- ... Női kajaknégyes adatai ... -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+/* style.css */
+
+/* A Bootstrap általános stílusai itt helyezhetők el, ha szükségesek */
+
+/* Egyéni sportolók és női kajaknégyes stílusai */
+.col {
+    margin-bottom: 20px; /* Opcionális térköz a blokkok között */
+}
