@@ -1,0 +1,24 @@
+„Az érmék” című blokkban közvetlen a cím után szúrja be az ermek.jpg képet! Ha a
+kép nem jeleníthető meg akkor az „érmék” szöveg jelenjen meg! A megfelelő Bootstrap
+osztály alkalmazásával állítsa be, hogy a kép szélessége 100% legyen!
+
+/* style.css */
+
+.image-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+<!-- index.html -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Az érmék</h2>
+            <div class="image-container">
+                <img src="ermek.jpg" alt="érmék" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
